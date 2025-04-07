@@ -61,7 +61,9 @@ Make sure to format the OUTPUT as LIST OF DICTIONARIES ONLY.
             messages=[{"role": "user", "content": prompt}],
             temperature=0.4,
         )
-        return response.choices[0].message.content
+        questions = response.choices[0].message.content
+        questions = eval(questions.strip().strip("```json").strip("```"))
+        return questions
 
 # Example usage
 if __name__ == "__main__":
@@ -83,7 +85,7 @@ if __name__ == "__main__":
 
         # Without RAG
         questions_no_rag = gpt.generate_questions(topic, context="")
-        questions_no_rag = eval(questions_no_rag.strip().strip("```json").strip("```"))
+        # questions_no_rag = eval(questions_no_rag.strip().strip("```json").strip("```"))
         with open(f"evaluation/{topic_slug}_without_rag.json", "w") as f:
             json.dump(questions_no_rag, f, indent=2)
 
@@ -92,6 +94,6 @@ if __name__ == "__main__":
         query_embedding = normalize(query_embedding, axis=1)
         context = retriever.search(query_embedding, top_k=3)
         questions_with_rag = gpt.generate_questions(topic, context=context)
-        questions_with_rag = eval(questions_with_rag.strip().strip("```json").strip("```"))
+        # questions_with_rag = eval(questions_with_rag.strip().strip("```json").strip("```"))
         with open(f"evaluation/{topic_slug}_with_rag.json", "w") as f:
             json.dump(questions_with_rag, f, indent=2)
