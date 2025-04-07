@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which of the following best describes the concept of adaptive radiation?",
+    "options": {
+      "A": "Evolution of similar traits in unrelated species.",
+      "B": "Diversification of a species into multiple forms adapted to different environments.",
+      "C": "The gradual change of species over time.",
+      "D": "The process of natural selection favoring one extreme phenotype."
+    },
+    "answer": "B",
+    "explanation": "Adaptive radiation refers to the diversification of a species into several different species or subspecies that adapt to various ecological niches."
+  },
+  {
+    "question": "What type of evolution occurs when unrelated species evolve similar traits due to similar environmental pressures?",
+    "options": {
+      "A": "Divergent evolution",
+      "B": "Convergent evolution",
+      "C": "Parallel evolution",
+      "D": "Adaptive radiation"
+    },
+    "answer": "B",
+    "explanation": "Convergent evolution is when unrelated species develop similar traits as a result of adapting to similar environments."
+  },
+  {
+    "question": "Which of the following is an example of homologous structures?",
+    "options": {
+      "A": "Wings of a butterfly and wings of a bird",
+      "B": "Flippers of dolphins and fins of fish",
+      "C": "Forelimbs of humans and forelimbs of whales",
+      "D": "Eyes of octopus and eyes of mammals"
+    },
+    "answer": "C",
+    "explanation": "Homologous structures, like the forelimbs of humans and whales, share a common ancestry but have evolved to perform different functions."
+  },
+  {
+    "question": "What is the primary mechanism of evolution proposed by Charles Darwin?",
+    "options": {
+      "A": "Mutation",
+      "B": "Natural selection",
+      "C": "Genetic drift",
+      "D": "Gene flow"
+    },
+    "answer": "B",
+    "explanation": "Natural selection is the mechanism by which individuals with favorable traits are more likely to survive and reproduce, leading to evolutionary changes."
+  },
+  {
+    "question": "Which principle states that allele frequencies in a population remain constant in the absence of evolutionary influences?",
+    "options": {
+      "A": "Hardy-Weinberg principle",
+      "B": "Natural selection",
+      "C": "Genetic drift",
+      "D": "Founder effect"
+    },
+    "answer": "A",
+    "explanation": "The Hardy-Weinberg principle describes a state of genetic equilibrium where allele frequencies remain stable in a non-evolving population."
+  }
+]

@@ -32,7 +32,7 @@ class DocumentProcessor:
             text += para.text + "\n"
             for rel in para.part.rels:
                 if "image" in para.part.rels[rel].target_ref:
-                    text += "\n\n[IMAGE PLACEHOLDER]\n\n"
+                    text += "\n[IMAGE PLACEHOLDER]\n"
 
         return text
 
@@ -40,7 +40,7 @@ class DocumentProcessor:
     def extract_text_from_pdf(self, pdf_path):
         doc = fitz.open(pdf_path)
         all_pages_text = []
-        image_placeholder = "\n\n[IMAGE PLACEHOLDER]\n\n"
+        image_placeholder = "\n[IMAGE PLACEHOLDER]\n"
 
         for page in doc:
             text_lines = []
@@ -173,46 +173,48 @@ class DocumentProcessor:
 
         if file_extension == ".pdf":
             text = self.extract_text_from_pdf(file_path)
-            self.extract_images_from_pdf(file_path)
+            # self.extract_images_from_pdf(file_path)
         elif file_extension == ".docx":
             text = self.extract_text_from_word(file_path)
-            self.extract_images_from_word(file_path)
+            # self.extract_images_from_word(file_path)
         else:
             raise ValueError("Unsupported file format. Only PDF and DOCX are supported.")
 
         # Extract text from images and replace placeholders
         extracted_texts = []
-        for image_file in sorted(Path(self.output_folder).glob("*.png")):
-            extracted_texts.append(self.extract_text_from_image(str(image_file)))
+        # for image_file in sorted(Path(self.output_folder).glob("*.png")):
+        #     extracted_texts.append(self.extract_text_from_image(str(image_file)))
 
-        for extracted_text in extracted_texts:
-            text = text.replace("[IMAGE PLACEHOLDER]", extracted_text, 1)
+        # for extracted_text in extracted_texts:
+        #     text = text.replace("[IMAGE PLACEHOLDER]", extracted_text, 1)
 
         # Cleanup extracted images
-        shutil.rmtree(self.output_folder)
+        # shutil.rmtree(self.output_folder)
 
         # Chunk the text into meaningful sections
         chunks = self.chunk_text(text)
 
-        return chunks  # Now returns a list of text chunks
+        for i, chunk in enumerate(chunks):
+            # Clean the chunked text
+            if "[IMAGE PLACEHOLDER]" in chunk:
+                chunk = chunk.replace("[IMAGE PLACEHOLDER]", "")
+
+        return text  # Now returns a list of text chunks
 
 
-# 📝 Example Usage
-from document_processor import DocumentProcessor
+# # # 📝 Example Usage
+# processor = DocumentProcessor()
 
-processor = DocumentProcessor()
+# pdf_file_path = "documents/file.pdf"
+# # # docx_file_path = "documents/file.docx"
 
-pdf_file_path = "documents/file.pdf"
-# docx_file_path = "documents/file.docx"
-
-# Extracted text from PDF
-pdf_text = processor.process_document(pdf_file_path)
+# # Extracted text from PDF
+# pdf_text = processor.process_document(pdf_file_path)
 # print("Extracted Text from PDF:\n", pdf_text)
 
-# Extracted text from Word document
-# docx_text = processor.process_document(docx_file_path)
-n = 1
-for text in pdf_text:
-    print(f"Chunked Text {n}: {text}\n")
-    n+=1
-# print("Extracted Text from Word:\n", docx_text)
+# # # Extracted text from Word document
+# # # docx_text = processor.process_document(docx_file_path)
+# # n = 1
+# for i in range(len(pdf_text)):
+#     print(f"Chunked Text {i}: {pdf_text[i]}\n")
+# # print("Extracted Text from Word:\n", docx_text)

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which classification system proposed by R.H. Whittaker includes Monera, Protista, Fungi, Plantae, and Animalia?",
+    "options": {
+      "A": "Two Kingdom",
+      "B": "Three Kingdom",
+      "C": "Five Kingdom",
+      "D": "Natural System"
+    },
+    "answer": "C",
+    "explanation": "R.H. Whittaker's Five Kingdom classification organizes organisms based on cellular structure and mode of nutrition."
+  },
+  {
+    "question": "What characterizes organisms in the kingdom Monera?",
+    "options": {
+      "A": "Eukaryotic cells",
+      "B": "Multicellular",
+      "C": "Prokaryotic cells",
+      "D": "Presence of a nucleus"
+    },
+    "answer": "C",
+    "explanation": "Monera consists of prokaryotic organisms, which lack a defined nucleus and include bacteria."
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of Fungi?",
+    "options": {
+      "A": "Chitin in cell walls",
+      "B": "Photosynthetic",
+      "C": "Eukaryotic",
+      "D": "Heterotrophic"
+    },
+    "answer": "B",
+    "explanation": "Fungi are heterotrophic and lack chlorophyll, thus they do not perform photosynthesis."
+  },
+  {
+    "question": "In which kingdom would you classify organisms like Euglena and Amoeba?",
+    "options": {
+      "A": "Fungi",
+      "B": "Plantae",
+      "C": "Protista",
+      "D": "Animalia"
+    },
+    "answer": "C",
+    "explanation": "Euglena and Amoeba are unicellular eukaryotes classified under the kingdom Protista."
+  },
+  {
+    "question": "Which of the following is a key feature of the phylogenetic system of classification?",
+    "options": {
+      "A": "Based on morphological traits",
+      "B": "Based on evolutionary relationships",
+      "C": "Based on artificial traits",
+      "D": "Based on habitat"
+    },
+    "answer": "B",
+    "explanation": "The phylogenetic system classifies organisms based on their evolutionary history and relationships."
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which of the following is a mechanism of evolution proposed by Charles Darwin?",
+    "options": {
+      "A": "Genetic drift",
+      "B": "Natural selection",
+      "C": "Gene flow",
+      "D": "Mutation"
+    },
+    "answer": "B",
+    "explanation": "Natural selection is the process where organisms better adapted to their environment tend to survive and produce more offspring."
+  },
+  {
+    "question": "What is the primary source of genetic variation in populations?",
+    "options": {
+      "A": "Natural selection",
+      "B": "Mutation",
+      "C": "Gene flow",
+      "D": "Genetic drift"
+    },
+    "answer": "B",
+    "explanation": "Mutations are changes in the DNA sequence that can introduce new genetic variation into a population."
+  },
+  {
+    "question": "Which of the following best describes convergent evolution?",
+    "options": {
+      "A": "Different species evolve similar traits",
+      "B": "Similar species evolve different traits",
+      "C": "Species evolve due to genetic drift",
+      "D": "Species become extinct"
+    },
+    "answer": "A",
+    "explanation": "Convergent evolution occurs when unrelated species develop similar traits due to adapting to similar environments."
+  },
+  {
+    "question": "What is the term for the process by which new species arise?",
+    "options": {
+      "A": "Speciation",
+      "B": "Extinction",
+      "C": "Adaptation",
+      "D": "Mutation"
+    },
+    "answer": "A",
+    "explanation": "Speciation is the evolutionary process by which populations evolve to become distinct species."
+  },
+  {
+    "question": "Which of the following provides evidence for evolution through common ancestry?",
+    "options": {
+      "A": "Fossil records",
+      "B": "Biogeography",
+      "C": "Comparative anatomy",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "All of these provide evidence for evolution, showing how species have changed over time and share common ancestors."
+  }
+]

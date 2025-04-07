@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is the primary hormone responsible for the regulation of the menstrual cycle?",
+    "options": {
+      "A": "Estrogen",
+      "B": "Progesterone",
+      "C": "Testosterone",
+      "D": "Luteinizing hormone"
+    },
+    "answer": "A",
+    "explanation": "Estrogen plays a crucial role in regulating the menstrual cycle and the development of female secondary sexual characteristics."
+  },
+  {
+    "question": "During which phase of the menstrual cycle does ovulation occur?",
+    "options": {
+      "A": "Follicular phase",
+      "B": "Ovulatory phase",
+      "C": "Luteal phase",
+      "D": "Menstrual phase"
+    },
+    "answer": "B",
+    "explanation": "Ovulation occurs during the ovulatory phase, when a mature egg is released from the ovary."
+  },
+  {
+    "question": "What is the role of the placenta during pregnancy?",
+    "options": {
+      "A": "Produces eggs",
+      "B": "Facilitates gas exchange",
+      "C": "Stores nutrients",
+      "D": "Regulates menstrual cycle"
+    },
+    "answer": "B",
+    "explanation": "The placenta facilitates gas exchange between the mother and fetus, providing oxygen and nutrients while removing waste."
+  },
+  {
+    "question": "Which structure is responsible for the production of sperm in males?",
+    "options": {
+      "A": "Seminal vesicles",
+      "B": "Epididymis",
+      "C": "Testes",
+      "D": "Prostate gland"
+    },
+    "answer": "C",
+    "explanation": "The testes are the male reproductive organs that produce sperm and testosterone."
+  },
+  {
+    "question": "What is the function of the fallopian tubes?",
+    "options": {
+      "A": "Transport sperm",
+      "B": "Site of fertilization",
+      "C": "Produce hormones",
+      "D": "Support fetal development"
+    },
+    "answer": "B",
+    "explanation": "The fallopian tubes are the site where fertilization typically occurs, allowing the sperm to meet the egg."
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Which kingdom includes organisms that are primarily unicellular and prokaryotic?",
+    "options": {
+      "A": "Fungi",
+      "B": "Plantae",
+      "C": "Animalia",
+      "D": "Monera"
+    },
+    "answer": "D",
+    "explanation": "The Monera kingdom consists of unicellular prokaryotic organisms, such as bacteria."
+  },
+  {
+    "question": "Which of the following is a characteristic feature of fungi?",
+    "options": {
+      "A": "Photosynthesis",
+      "B": "Cellulose cell walls",
+      "C": "Chitin cell walls",
+      "D": "Multicellular only"
+    },
+    "answer": "C",
+    "explanation": "Fungi have cell walls made of chitin, distinguishing them from plants."
+  },
+  {
+    "question": "What is the primary basis for the classification of living organisms?",
+    "options": {
+      "A": "Habitat",
+      "B": "Morphology",
+      "C": "Genetics",
+      "D": "Behavior"
+    },
+    "answer": "C",
+    "explanation": "Genetics provides a more accurate basis for classification by revealing evolutionary relationships."
+  },
+  {
+    "question": "Which of the following groups includes organisms that are autotrophic?",
+    "options": {
+      "A": "Animalia",
+      "B": "Fungi",
+      "C": "Plantae",
+      "D": "Protista"
+    },
+    "answer": "C",
+    "explanation": "Plantae includes organisms that are autotrophic, primarily through photosynthesis."
+  },
+  {
+    "question": "In the Linnaean system of classification, which rank comes immediately after 'Family'?",
+    "options": {
+      "A": "Order",
+      "B": "Genus",
+      "C": "Species",
+      "D": "Class"
+    },
+    "answer": "B",
+    "explanation": "In the Linnaean hierarchy, 'Genus' is the rank that follows 'Family'."
+  }
+]

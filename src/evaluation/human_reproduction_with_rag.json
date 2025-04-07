@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What is the primary function of the ovaries in the female reproductive system?",
+    "options": {
+      "A": "Produce sperm",
+      "B": "Produce eggs and hormones",
+      "C": "Transport eggs to the uterus",
+      "D": "Support fetal development"
+    },
+    "answer": "B",
+    "explanation": "The ovaries are responsible for producing eggs (ova) and secreting hormones like estrogen and progesterone."
+  },
+  {
+    "question": "During which phase of the menstrual cycle does ovulation occur?",
+    "options": {
+      "A": "Menstrual phase",
+      "B": "Follicular phase",
+      "C": "Ovulation phase",
+      "D": "Luteal phase"
+    },
+    "answer": "C",
+    "explanation": "Ovulation occurs around the 14th day of the menstrual cycle, marking the release of a mature egg."
+  },
+  {
+    "question": "What is the role of the placenta during pregnancy?",
+    "options": {
+      "A": "Produces hormones only",
+      "B": "Provides nourishment and oxygen to the fetus",
+      "C": "Facilitates sperm transport",
+      "D": "Forms the amniotic sac"
+    },
+    "answer": "B",
+    "explanation": "The placenta acts as a vital organ that supplies nutrients and oxygen to the developing fetus and removes waste."
+  },
+  {
+    "question": "What is the process called when a sperm and an egg fuse to form a zygote?",
+    "options": {
+      "A": "Gametogenesis",
+      "B": "Fertilization",
+      "C": "Implantation",
+      "D": "Ovulation"
+    },
+    "answer": "B",
+    "explanation": "Fertilization is the process where the male sperm fuses with the female egg, resulting in the formation of a zygote."
+  },
+  {
+    "question": "What initiates menstruation in the female reproductive system?",
+    "options": {
+      "A": "High levels of estrogen",
+      "B": "Low levels of progesterone",
+      "C": "Ovulation",
+      "D": "Fertilization"
+    },
+    "answer": "B",
+    "explanation": "Menstruation begins when progesterone levels drop, leading to the breakdown of the uterine lining."
+  }
+]
